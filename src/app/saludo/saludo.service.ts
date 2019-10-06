@@ -7,7 +7,7 @@ import { Persona } from './persona';
   providedIn: 'root'
 })
 export class SaludoService {
-  url = 'http://back:8888/saludo/';
+  url = 'http://espn.onetvrn.com:8888/saludo/';
   constructor(private http: HttpClient) { }
 
   saludar(): Observable<Persona>{
