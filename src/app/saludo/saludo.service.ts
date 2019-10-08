@@ -8,7 +8,7 @@ import { Persona } from './persona';
 })
 export class SaludoService {
   #url = 'http://dockerserver.devopsmind.co:8888/saludo/';
-  url = 'http://devopsmind.co/api';
+  url = 'http://dockerserver.devopsmind.co:8888/saludo/';
   constructor(private http: HttpClient) { }
 
   saludar(): Observable<Persona>{
